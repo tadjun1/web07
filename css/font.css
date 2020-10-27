@@ -18,5 +18,7 @@
 
 body {font-family: 'SCDream', sans-serif;}
 
-h1, h2, h3, h4, h5, .en {font-family: 'Monkeyfont', sans-serif;}
+h1, h2, h3, h4, h5 {font-family: 'Monkeyfont', sans-serif;}
+
+.en  {font-family: 'Monkeyfont', sans-serif; font-size: 1.2rem;}
 
