@@ -148,6 +148,9 @@ main .title p {}
 	text-align: center;
 	cursor: pointer
 }
+#work .work-box article p {
+	transition: all 0.3s;
+}
 #work .work-box article:hover p {
 	letter-spacing: 2px;
 }
