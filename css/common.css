@@ -148,7 +148,9 @@ main .title p {}
 	text-align: center;
 	cursor: pointer
 }
-
+#work .work-box article:hover p {
+	letter-spacing: 2px;
+}
 .overlay {
 	position: fixed;
 	top: 0;
