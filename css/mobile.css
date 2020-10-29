@@ -64,5 +64,10 @@ header .gnb a {
   padding-top: 10px
 }
 
+/*about*/
+#about .left-box {
+	display: none;
+}
+#about .right-box {float: none; margin: auto; padding-left: 10%; width: 100%;}
 
 

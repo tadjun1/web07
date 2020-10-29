@@ -212,15 +212,17 @@ main .title p {}
 	width: 100%;
 }
 /*about*/
-#about .about-box {}
-#about .about-box .left-box {
+#about {}
+#about .left-box {
 	float: left;
 	width: 50%;
-	padding-top: 50px;
+	padding: 50px 0 0 30px;
+	box-sizing: border-box;	
 }
-#about .about-box .left-box img {width: 100%;}
-#about .about-box .right-box {float: right; width: 50%;}
-#about .about-box .text-box {
+#about .left-box img {width: 100%;}
+#about .right-box {float: right; width: 50%; text-align: center; box-sizing: border-box;}
+#about .right-box img {width: 100%;}
+/*#about .text-box {
 	width: 100%;
 	padding: 100px 20px 0 20px;
 }
@@ -229,7 +231,7 @@ main .title p {}
 }
 #about .text-box p {
 	margin: 10px 0;
-}
+}*/
 /*contact*/
 #contact {
 	background-color: #fff
